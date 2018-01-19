@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gideonakpan.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	body{
+			background-color: #ffb3ec;
+			color: blue;
+			font-family: cursive;
+}
+.navigation{
+	float: right;
+}
+.section {
+	display: inline-flex;
+	padding-top: 100px;
+	padding-left: 100px
+}
+.footer {
+	width: 20px;
+	height: 20px;
+}
 
-You can use the [editor on GitHub](https://github.com/Rexplacid/rexplacid.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+img {
+	border-radius: 45px;
+	border: 4px solid white;
+	height: 500px;
+	width: 350px;
+	padding-left: 
 
-### Markdown
+}
+a {
+	text-decoration: none;
+	display: inline-flex;
+}
+footer {
+    text-align: center;
+    padding-top: 50px;
+}	
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	</style>
+</head>
+<body>
+	<div class="navigation">
+		
+			<a href="#">HOME</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">ABOUT</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">WORKS</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">CONTACT</a>		
+	</div>
+	<div class="section">
+		<div style="display: inline-block; width: 500px; padding-right: 150px; padding-top: 100px;">
+		 <h1>
+                Hi! I'm <br>
+                Gideon Nkereuwem <br>
+                Akpan
+            </h1>
+            <p>
+                I am a computer Engineering Student and an aspiring web developer, My inspiration is God .<br>
+                <strong>Hobbies:</strong> Watching football and learning something new.
+            </p>
+        </div>
+        <div>
+		<img src="gideon.jpg">
+		 <p>⊲ Lets Work Together</p>
+		</div>
+	</div>
+	<footer>
+		<a href="facebook.com/gideon.akpan.927"><img class="footer" src="facebook_icon.png"></a>
+		<a href="https://twitter.com/gideonakpan98"><img class="footer" src="twitter_icon.png"></a>
+		<a href="https://gideonakpan98@gmail.com"><img class="footer" src="medium_icon.png"></a>
+        
+        <p><small>Copyright © 2018  | Design by Gideon Akpan.</small> </p> 
+	</footer>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rexplacid/rexplacid.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
